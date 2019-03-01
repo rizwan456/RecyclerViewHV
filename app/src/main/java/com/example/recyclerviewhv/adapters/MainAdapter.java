@@ -12,13 +12,11 @@ import com.example.recyclerviewhv.IUserAdapter;
 import com.example.recyclerviewhv.R;
 import com.example.recyclerviewhv.User;
 import com.example.recyclerviewhv.databinding.BottomViewBinding;
-import com.example.recyclerviewhv.databinding.MainRecyclerBinding;
 import com.example.recyclerviewhv.databinding.TopViewBinding;
 
 import java.util.List;
 
 public class MainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-    MainRecyclerBinding mainRecyclerBinding;
     TopViewBinding topViewBinding;
     BottomViewBinding bottomViewBinding;
     Context context;
